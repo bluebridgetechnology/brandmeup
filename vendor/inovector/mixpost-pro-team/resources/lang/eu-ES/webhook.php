@@ -1,0 +1,58 @@
+<?php
+
+return [
+  'edit_webhook' => 'Editatu web-liburua',
+  'callback_url' => 'Deia itzultzeko URLa',
+  'method' => 'Metodoa',
+  'max_attempts' => 'Gehienezko saiakera',
+  'secret' => 'Sekretua',
+  'events' => 'Gertaerak',
+  'webhooks' => 'Webhook-ak',
+  'create_webhook' => 'Sortu webhook',
+  'deliveries' => 'Webhook bidalketak',
+  'never_triggered' => 'Inoiz piztu',
+  'last_delivery_succeeded' => 'Azken entrega arrakastatsua izan zen.',
+  'last_delivery_failed' => 'Azken entrega huts egin du.',
+  'delete_webhook' => 'Ezabatu webhook',
+  'delete_webhook_confirm' => 'Ziur webhook hau ezabatu nahi duzula?',
+  'webhooks_desc' => 'Baimendu kanpoko zerbitzuei jakinarazpena jasotzeko gertaera batzuk gertatzen direnean.',
+  'event' => 
+  [
+    'post' => 
+    [
+      'created' => 'Argitalpena sortu da',
+      'updated' => 'Argitalpena eguneratua',
+      'deleted' => 'Argitalpena ezabatu da',
+      'scheduled' => 'Posta Programatua',
+      'published' => 'Argitaratutako mezua',
+      'publishing_failed' => 'Argitaratzea huts egin du',
+    ],
+    'account' => 
+    [
+      'added' => 'Kontua gehitu da',
+      'updated' => 'Kontua eguneratu da',
+      'deleted' => 'Kontua ezabatu da',
+    ],
+  ],
+  'change_secret' => 'Aldatu sekretua',
+  'change_secret_desc' => ' Sekretu hau galtzen edo ahazten baduzu, alda dezakezu, baina gogoratu hura erabiltzen duen edozein integrazio eguneratzea.',
+  'secret_updated' => 'Sekretua behar bezala eguneratu da',
+  'delete_webhooks' => 'Ezabatu webhook-ak',
+  'delete_webhooks_confirm' => 'Ziur hautatutako webhook-ak ezabatu nahi dituzula?',
+  'resend' => 'Berriz bidali',
+  'next_retry' => 'Hurrengo saiatu berriro',
+  'resend_manually' => 'Webhook hau eskuz bidali da',
+  'response' => 'Erantzuna',
+  'http_status' => 'HTTP egoera kodea',
+  'payload' => 'Karga erabilgarria',
+  'resent' => 'Webhook berriro bidali da',
+  'updated' => 'Webhook behar bezala eguneratu da',
+  'not_found' => 'Ez da webhook aurkitu',
+  'deleted' => 'Webhook behar bezala ezabatu da',
+  'created' => 'Webhook arrakastaz sortu da',
+  'delete_webhooks_failed' => 'Ezin izan dira webhook-ak ezabatu',
+  'delete_webhooks_success' => 'Webhook-ak behar bezala ezabatu dira',
+  'delivery_failed_try_redeliver' => 'Ezin izan da webhook entregatu. Sistema gero saiatuko da ekitaldia berriro bidaltzen.',
+  'delivery_failed' => 'Ezin izan da webhook entregatu.',
+  'content_type' => 'Eduki-Mota',
+];

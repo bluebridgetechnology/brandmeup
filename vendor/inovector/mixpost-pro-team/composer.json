@@ -1,0 +1,87 @@
+{
+    "name": "inovector/mixpost-pro-team",
+    "description": "Self-hosted social media management software",
+    "keywords": [
+        "inovector",
+        "mixpost",
+        "mixpost-pro",
+        "mixpost-pro-team",
+        "scheduling",
+        "laravel"
+    ],
+    "homepage": "https://mixpost.app",
+    "authors": [
+        {
+            "name": "Dima Botezatu",
+            "email": "dima@inovector.com",
+            "homepage": "https://inovector.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-fileinfo": "*",
+        "abraham/twitteroauth": "^4.0",
+        "bacon/bacon-qr-code": "^2.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "illuminate/contracts": "^9.28|^10.0",
+        "inertiajs/inertia-laravel": "^0.6.9",
+        "intervention/image": "^2.7",
+        "laravel/horizon": "^5.0",
+        "openai-php/client": "^0.8.4",
+        "php-ffmpeg/php-ffmpeg": "^1.0",
+        "pragmarx/google2fa": "^8.0",
+        "spatie/laravel-package-tools": "^1.14",
+        "spatie/temporary-directory": "^2.1",
+        "tightenco/ziggy": "1.*"
+    },
+    "require-dev": {
+        "laradumps/laradumps": "^2.1",
+        "nunomaduro/collision": "^6.0",
+        "orchestra/testbench": "^7.0",
+        "pestphp/pest": "^1.21",
+        "pestphp/pest-plugin-faker": "^1.0",
+        "pestphp/pest-plugin-laravel": "^1.1",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "phpstan/phpstan-phpunit": "^1.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inovector\\Mixpost\\": "src",
+            "Inovector\\Mixpost\\Database\\Factories\\": "database/factories"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Inovector\\Mixpost\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true,
+            "php-http/discovery": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Inovector\\Mixpost\\MixpostServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

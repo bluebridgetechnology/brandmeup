@@ -1,0 +1,58 @@
+<?php
+
+return [
+  'edit_webhook' => 'Editer le Webbook',
+  'callback_url' => 'URL de rappel',
+  'method' => 'Méthode',
+  'max_attempts' => 'Nombre maximal de tentatives',
+  'secret' => 'Secret',
+  'events' => 'Evénements',
+  'webhooks' => 'Crochets Web',
+  'create_webhook' => 'Créer un webhook',
+  'deliveries' => 'Livraisons de webhooks',
+  'never_triggered' => 'Jamais déclenché',
+  'last_delivery_succeeded' => 'La dernière livraison a été effectuée avec succès.',
+  'last_delivery_failed' => 'La dernière livraison a échoué.',
+  'delete_webhook' => 'Supprimer le webhook',
+  'delete_webhook_confirm' => 'Êtes-vous sûr de vouloir supprimer ce webhook ?',
+  'webhooks_desc' => 'Permettre à des services externes d\'être notifiés lorsque certains événements se produisent.',
+  'event' => 
+  [
+    'post' => 
+    [
+      'created' => 'Poste créé',
+      'updated' => 'Poste mis à jour',
+      'deleted' => 'Poste supprimé',
+      'scheduled' => 'Poste programmé',
+      'published' => 'Poste publié',
+      'publishing_failed' => 'Échec de la publication',
+    ],
+    'account' => 
+    [
+      'added' => 'Compte ajouté',
+      'updated' => 'Compte mis à jour',
+      'deleted' => 'Compte supprimé',
+    ],
+  ],
+  'change_secret' => 'Changer le secret',
+  'change_secret_desc' => ' Si vous perdez ou oubliez ce secret, vous pouvez le modifier, mais n\'oubliez pas de mettre à jour les intégrations qui l\'utilisent.',
+  'secret_updated' => 'Mise à jour du secret réussie',
+  'delete_webhooks' => 'Supprimer les webhooks',
+  'delete_webhooks_confirm' => 'Êtes-vous sûr de vouloir supprimer les webhooks sélectionnés ?',
+  'resend' => 'Renvoyer',
+  'next_retry' => 'Prochaine tentative',
+  'resend_manually' => 'Ce webhook a été renvoyé manuellement',
+  'response' => 'Réponse',
+  'http_status' => 'Code d\'état HTTP',
+  'payload' => 'Charge utile',
+  'resent' => 'Le webhook a été renvoyé',
+  'updated' => 'Webhook mis à jour avec succès',
+  'not_found' => 'Webhook introuvable',
+  'deleted' => 'Webhook supprimé avec succès',
+  'created' => 'Webhook créé avec succès',
+  'delete_webhooks_failed' => 'Les webhooks n\'ont pas pu être supprimés',
+  'delete_webhooks_success' => 'Webhooks supprimés avec succès',
+  'delivery_failed_try_redeliver' => 'La livraison de ce webhook a échoué. Le système essaiera de retransmettre l\'événement ultérieurement.',
+  'delivery_failed' => 'La livraison de ce webhook a échoué.',
+  'content_type' => 'Content-Type',
+];

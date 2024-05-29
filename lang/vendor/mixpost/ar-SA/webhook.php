@@ -1,0 +1,58 @@
+<?php
+
+return [
+  'edit_webhook' => 'تحرير كتاب الويب',
+  'callback_url' => 'عاود الاتصال بالعنوان',
+  'method' => 'طريقة',
+  'max_attempts' => 'ماكس المحاولات',
+  'secret' => 'سر',
+  'events' => 'الأحداث',
+  'webhooks' => 'خطافات الويب',
+  'create_webhook' => 'إنشاء خطاف على الويب',
+  'deliveries' => 'تسليمات الويب هوك',
+  'never_triggered' => 'لم يتم تشغيلها أبدًا',
+  'last_delivery_succeeded' => 'التسليم الأخير كان ناجحا.',
+  'last_delivery_failed' => 'فشل التسليم الأخير.',
+  'delete_webhook' => 'حذف خطاف الويب',
+  'delete_webhook_confirm' => 'هل أنت متأكد أنك تريد حذف خطاف الويب هذا؟',
+  'webhooks_desc' => 'السماح بإخطار الخدمات الخارجية عند حدوث أحداث معينة.',
+  'event' => 
+  [
+    'post' => 
+    [
+      'created' => 'تم إنشاء المشاركة',
+      'updated' => 'تم تحديث المشاركة',
+      'deleted' => 'تم حذف المشاركة',
+      'scheduled' => 'مشاركة مجدولة',
+      'published' => 'تم نشر المشاركة',
+      'publishing_failed' => 'فشل نشر المشاركة',
+    ],
+    'account' => 
+    [
+      'added' => 'تمت إضافة الحساب',
+      'updated' => 'تم تحديث الحساب',
+      'deleted' => 'تم حذف الحساب',
+    ],
+  ],
+  'change_secret' => 'تغيير السر',
+  'change_secret_desc' => ' إذا فقدت هذا السر أو نسيته، فيمكنك تغييره، ولكن تذكر تحديث أي عمليات تكامل تستخدمه.',
+  'secret_updated' => 'تم تحديث السر بنجاح',
+  'delete_webhooks' => 'حذف خطافات الويب',
+  'delete_webhooks_confirm' => 'هل أنت متأكد من أنك تريد حذف خطافات الويب المحددة؟',
+  'resend' => 'إعادة إرسال',
+  'next_retry' => 'أعد المحاولة التالية',
+  'resend_manually' => 'تمت إعادة إرسال خطاف الويب هذا يدويًا',
+  'response' => 'إجابة',
+  'http_status' => 'رمز حالة HTTP',
+  'payload' => 'الحمولة',
+  'resent' => 'تمت إعادة الرد التلقائي على الويب',
+  'updated' => 'تم تحديث Webhook بنجاح',
+  'not_found' => 'لم يتم العثور على الرد التلقائي على الويب',
+  'deleted' => 'تم حذف الرد التلقائي على الويب بنجاح',
+  'created' => 'تم إنشاء Webhook بنجاح',
+  'delete_webhooks_failed' => 'لا يمكن حذف خطافات الويب',
+  'delete_webhooks_success' => 'تم حذف خطافات الويب بنجاح',
+  'delivery_failed_try_redeliver' => 'فشل تسليم خطاف الويب هذا. سيحاول النظام إعادة تسليم الحدث لاحقًا.',
+  'delivery_failed' => 'فشل تسليم خطاف الويب هذا.',
+  'content_type' => 'نوع المحتوى',
+];

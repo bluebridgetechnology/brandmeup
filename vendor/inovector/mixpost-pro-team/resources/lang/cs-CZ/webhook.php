@@ -1,0 +1,58 @@
+<?php
+
+return [
+  'edit_webhook' => 'Upravit webovou knihu',
+  'callback_url' => 'Adresa URL zpětného volání',
+  'method' => 'Metoda',
+  'max_attempts' => 'Maximální počet pokusů',
+  'secret' => 'Tajné',
+  'events' => 'Události',
+  'webhooks' => 'Webové háčky',
+  'create_webhook' => 'Vytvoření webhooku',
+  'deliveries' => 'Dodávky prostřednictvím webhooku',
+  'never_triggered' => 'Nikdy se nespustil',
+  'last_delivery_succeeded' => 'Poslední dodávka byla úspěšná.',
+  'last_delivery_failed' => 'Poslední doručení se nezdařilo.',
+  'delete_webhook' => 'Odstranění webhooku',
+  'delete_webhook_confirm' => 'Opravdu chcete tento webový háček odstranit?',
+  'webhooks_desc' => 'Povolení upozorňování externích služeb na určité události.',
+  'event' => 
+  [
+    'post' => 
+    [
+      'created' => 'Vytvořený příspěvek',
+      'updated' => 'Příspěvek Aktualizováno',
+      'deleted' => 'Odstraněný příspěvek',
+      'scheduled' => 'Naplánovaný příspěvek',
+      'published' => 'Zveřejněný příspěvek',
+      'publishing_failed' => 'Zveřejnění příspěvku se nezdařilo',
+    ],
+    'account' => 
+    [
+      'added' => 'Přidaný účet',
+      'updated' => 'Účet aktualizován',
+      'deleted' => 'Odstraněný účet',
+    ],
+  ],
+  'change_secret' => 'Změna tajemství',
+  'change_secret_desc' => ' Pokud toto tajemství ztratíte nebo zapomenete, můžete ho změnit, ale nezapomeňte aktualizovat všechny integrace, které ho používají.',
+  'secret_updated' => 'Tajemství bylo úspěšně aktualizováno',
+  'delete_webhooks' => 'Odstranění webových háčků',
+  'delete_webhooks_confirm' => 'Opravdu chcete odstranit vybrané webové háčky?',
+  'resend' => 'Znovu odeslat',
+  'next_retry' => 'Další opakovaný pokus',
+  'resend_manually' => 'Tento webhook byl znovu odeslán ručně',
+  'response' => 'Reakce',
+  'http_status' => 'Stavový kód HTTP',
+  'payload' => 'Užitečné zatížení',
+  'resent' => 'Webový háček byl znovu odeslán',
+  'updated' => 'Webový háček byl úspěšně aktualizován',
+  'not_found' => 'Webový háček nebyl nalezen',
+  'deleted' => 'Webový háček úspěšně odstraněn',
+  'created' => 'Webový háček byl úspěšně vytvořen',
+  'delete_webhooks_failed' => 'Webové háčky nebylo možné odstranit',
+  'delete_webhooks_success' => 'Webové háčky byly úspěšně odstraněny',
+  'delivery_failed_try_redeliver' => 'Doručení tohoto webhooku se nezdařilo. Systém se pokusí událost znovu doručit později.',
+  'delivery_failed' => 'Doručení tohoto webhooku se nezdařilo.',
+  'content_type' => 'Content-Type',
+];
